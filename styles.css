@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/* Site name */
+.name {
+    font-size: 50px;
+}
+
+/* header */
+.top {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Nixie One', cursive;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* nav */
+.nav {
+    font-size: 1.3em;
+    padding: 15px;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav a {
+    color:rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/* Background */
+
+.main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(coffee.jpg) no-repeat center center/cover;
+    height: 850px;
+    width: 100%;
+    display: flex;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+#tagline {
+  display: flex;
+  flex-direction: column;
+  height: 900px;
+  justify-content: center;
+  font-size: 3em;
+  font-family: 'Plus Jakarta Sans';
+  text-align: center;
+  margin-top: -2.75em;
+  margin-bottom: 0.5em;
+  color:rgb(255, 255, 255);
+}
+
+
+#about {
+    height: 500px;
+    width: 100%;  
+    padding: 55px 0;
+    text-align: center;
+    background-color:rgba(153, 153, 153, 0.2);
+}
+
+.us {
+    font-size: 2em;
+}
+
+
+#beverage{
+    height: 650px;
+    width: 100%;
+    text-align: center;
+}
+
+#coffee {
+    display: flex;
+}
